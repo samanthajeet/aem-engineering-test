@@ -4,13 +4,17 @@ module.exports = {
   convertNumber: (req, res) => {
     try {
       if (!req.query) {
-        return res.status(404).json({ message: 'Not Found' });
+        return res.sendStatus(404);
       }
       const { query } = req.query;
       if(!parseInt(query)) {
-        return res.status(400).json({ message: 'Query must be an interger' })
+        res.sendStatus(400);
+        return;
       }
       let romanNumeral = toRomanNumerals(+query)
+      if(!romanNumeral) {
+        return res.sendStatus(404);
+      }
       res.status(200).send(romanNumeral)
     } catch(error) {
       console.log(error)

@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express()
 
-// endpoing reonse does require json to be parced. uncomment if needed by future endpoints
+// endpoint response does require json to be parced. uncomment if needed by future endpoints
 // app.use(express.json())
 
 const numCtrl = require('./numeralCtrl')

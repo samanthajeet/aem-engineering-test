@@ -8,9 +8,21 @@ This is an express endpoint that converts a number between 1 - 255 to a Roman nu
 - `cd` into folder and run `npm install` to install packages
 
 
-## Server
+## Run
 Server will run on `http://localhost:8080`
 
 ```bash
-nodemon
+$ nodemon
+```
+
+
+## Test
+To run unit tests run
+```bash
+$ npm run test
+```
+
+To check coverage of tests
+```bash
+$ jest --coverage
 ```
