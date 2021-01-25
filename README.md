@@ -2,9 +2,8 @@
 
 This is an express endpoint that converts a number between 1 - 255 to a Roman numera. (ex. 47 => XLVII)
 Code also includes Front End UI. Documention at bottom of README. Front end was not part of original requirments and pushed after "due date". 
-[Go to Optional Front End section](##optional-front-end)
 
-##### Convert numbers up to 4,999
+##### Possible to convert numbers up to 4,999
 To be able to convert numbers up to 4,999 update check in `numeralCtrl.js` and `decimalValue` and `romanNumeral` arrays in `helperFunctions.js`
 
 ## Installation
