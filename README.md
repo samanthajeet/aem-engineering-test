@@ -19,17 +19,17 @@ $ nodemon
 ```
 
 ## Optional Front End
-Created and pushed after "due date". Created front end for fun.
+Created and pushed after "due date". Did it for fun.
 ![Front End UI](https://github.com/samanthajeet/aem-engineering-test/blob/main/images/Capture.JPG?raw=true)
 
-##### Create .env
+#### Create .env
 Create .env file in root of folder and populate with following
 ```bash
 SKIP_PREFLIGHT_CHECK=true
 PORT=3003
 ```
 
-##### Run front end
+#### Run front end
 - In project folder, run `npm start`
 - React App will run on `http://localhost:3003/`
 
