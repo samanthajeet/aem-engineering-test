@@ -25,7 +25,6 @@ Created and pushed after "due date". Did it for fun.
 #### Create .env
 Create .env file in root of folder and populate with following
 ```bash
-SKIP_PREFLIGHT_CHECK=true
 PORT=3003
 ```
 
