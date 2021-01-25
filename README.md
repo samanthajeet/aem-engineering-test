@@ -1,6 +1,8 @@
 # Roman Numeral Converter
 
 This is an express endpoint that converts a number between 1 - 255 to a Roman numera. (ex. 47 => XLVII)
+Code also includes Front End UI. Documention at bottom of README. Front end was not part of original requirments and pushed after "due date". 
+[Go to Optional Front End section](##optional-front-end)
 
 ##### Convert numbers up to 4,999
 To be able to convert numbers up to 4,999 update check in `numeralCtrl.js` and `decimalValue` and `romanNumeral` arrays in `helperFunctions.js`
@@ -17,21 +19,6 @@ Server will run on `http://localhost:8080`
 ```bash
 $ nodemon
 ```
-
-## Optional Front End
-Created and pushed after "due date". Did it for fun.
-![Front End UI](https://github.com/samanthajeet/aem-engineering-test/blob/main/images/Capture.JPG?raw=true)
-
-#### Create .env
-Create .env file in root of folder and populate with following
-```bash
-PORT=3003
-```
-
-#### Run front end
-- In project folder, run `npm start`
-- React App will run on `http://localhost:3003/`
-
 
 ## Usage
 Integer can be any whole postive integer from 1 - 255
@@ -86,6 +73,22 @@ $ run test --coverage
 ```
 ##### Unit Testing
 Current unit tests test output of `/romannumeral` endpoint and `toRomanNumerals` function. Controlling/checking input values has been done with value checks in `/romannumeral` functionality. 
+
+##Optional Front End
+Created and pushed after "due date". Did it for fun. 
+![Front End UI](https://github.com/samanthajeet/aem-engineering-test/blob/main/images/Capture.JPG?raw=true)
+
+#### Create .env
+Create .env file in root of folder and populate with following
+```bash
+PORT=3003
+```
+#### Run front end
+- In project folder, run `npm start`
+- React App will run on `http://localhost:3003/`
+
+#### Test
+No tests exist for components yet
 
 ## Resources
 - Roman numerals chart (https://www.rapidtables.com/math/symbols/roman_numerals.html)
