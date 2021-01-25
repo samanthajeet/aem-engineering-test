@@ -1,3 +1,7 @@
+/**
+ * @jest-environment node
+ */
+
 const axios = require('axios');
 const baseURI = 'http://localhost:8080/romannumeral';
 const number = Math.floor((Math.random() * 255) + 1);

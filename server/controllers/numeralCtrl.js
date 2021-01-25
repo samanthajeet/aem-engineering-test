@@ -24,7 +24,14 @@ module.exports = {
         return res.sendStatus(404);
       }
 
+      // Below does not "fix" CORS error, but is a temp solution and works for this situation.
+      // Bellow overides the CORS header the server has in place with an open wildcard value (*)
+      res.set({
+        'Access-Control-Allow-Origin': '*',
+      })
+
       res.status(200).send(romanNumeral)
+      return;
 
     } catch(error) {
       console.log(error)

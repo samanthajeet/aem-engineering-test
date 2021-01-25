@@ -18,6 +18,20 @@ Server will run on `http://localhost:8080`
 $ nodemon
 ```
 
+## Optional Front End
+
+##### Create .env
+Create .env file in root of folder and populate with following
+```bash
+SKIP_PREFLIGHT_CHECK=true
+PORT=3003
+```
+
+##### Run front end
+- In project folder, run `npm start`
+- React App will run on `http://localhost:3003/`
+
+
 ## Usage
 Integer can be any whole postive integer from 1 - 255
 ```bash
@@ -37,6 +51,8 @@ http://localhost:8080/romannumeral?query=47
 ## Folder Structor
 ```bash
 ├── coverage                                   #coverage reports for jest/test coverage
+├── public
+│   ├── index.html
 ├── server
 │   ├── helperFunctions
 │   │   ├── helperfunctions.js                 #toRomanNumerals() main functionality of endpoint
@@ -45,7 +61,14 @@ http://localhost:8080/romannumeral?query=47
 │   ├── index.test.js
 │   ├── controllers                            
 │   │   ├── numeralCtrl.js                     #Main controller file
+├── src                                        #Front End components
+│   ├── components
+│   ├── reusableComponents
+│   ├── App.css
+│   ├── App.js
+│   ├── index.js
 ├── .gitignore
+├── nodemon.json
 ├── package.json
 ├── README.md
 ```
@@ -58,7 +81,7 @@ $ npm run test
 
 To check coverage of tests
 ```bash
-$ jest --coverage
+$ run test --coverage
 ```
 ##### Unit Testing
 Current unit tests test output of `/romannumeral` endpoint and `toRomanNumerals` function. Controlling/checking input values has been done with value checks in `/romannumeral` functionality. 

@@ -1,0 +1,22 @@
+button {
+    padding: .75em;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    color: white;
+    transition: background 0.5s ease;
+    background: #032535;
+}
+
+button:hover {
+    background: #ff9a00;
+    color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background: #ff5700;
+}

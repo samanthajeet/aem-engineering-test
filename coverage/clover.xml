@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1610941732305" clover="3.2.0">
-  <project timestamp="1610941732305" name="All files">
+<coverage generated="1611549461995" clover="3.2.0">
+  <project timestamp="1611549461995" name="All files">
     <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="10" coveredelements="10" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
-    <file name="helperFunctions.js" path="/Users/sjeet/Documents/01-PersonalProjects/Adobe/romanNumerals/server/helperFunctions/helperFunctions.js">
+    <file name="helperFunctions.js" path="C:\Users\Samantha Jeet\Documents\01-Dev\Adobe\aem-engineering-test\server\helperFunctions\helperFunctions.js">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="2" count="3" type="stmt"/>
-      <line num="3" count="3" type="stmt"/>
-      <line num="4" count="3" type="stmt"/>
-      <line num="5" count="3" type="stmt"/>
-      <line num="6" count="39" type="stmt"/>
-      <line num="7" count="20" type="stmt"/>
-      <line num="8" count="20" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
       <line num="11" count="3" type="stmt"/>
+      <line num="12" count="27" type="stmt"/>
+      <line num="13" count="16" type="stmt"/>
+      <line num="14" count="16" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>
