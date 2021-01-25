@@ -19,6 +19,8 @@ $ nodemon
 ```
 
 ## Optional Front End
+Created and pushed after "due date". Created front end for fun.
+![Front End UI](https://github.com/samanthajeet/aem-engineering-test/blob/main/images/Capture.JPG?raw=true)
 
 ##### Create .env
 Create .env file in root of folder and populate with following
